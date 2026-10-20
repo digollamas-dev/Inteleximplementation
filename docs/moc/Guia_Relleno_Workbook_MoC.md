@@ -7,6 +7,52 @@
 
 ---
 
+## 0. Estado actual: v1.2 rellenada con requisitos de Impala (20-oct-2026)
+
+**Archivos en `docs/moc/`:**
+
+| Archivo | Qué es |
+|---|---|
+| `... v1 (baseline Intelex).xlsx` | El original de Intelex, sin tocar |
+| `... v1.2 (Impala requirements DRAFT).xlsx` | **El workbook relleno**: cambios A/R/M resaltados en amarillo y una columna "Impala Notes" en cada hoja |
+| `Impala - MOC Screening Questions - Data Load Draft.xlsx` | 79 screening questions (67 Universal + 9 Liquids + 3 Dry) en formato del objeto Screening Question Setup |
+
+**Fuentes:**
+- SOW v1.5.
+- App Overview con Intelex (19-oct).
+- Pre-design interno de Impala (20-oct).
+- `MOC Proposal.xlsx` (workflow propuesto, matriz Change Impact y checklist).
+
+### Diseño volcado en el workbook
+
+| Tema | Decisión / requisito | Estado |
+|---|---|---|
+| Workflow | Initiation → **Evaluation, Design & Analysis** → **Approval** → Implementation → Start Up → Follow Up. Se elimina Pre-Approval; Emergency va directo a Approval. | Decidido por Impala; Intelex debe confirmar alcance |
+| Replacement in Kind | Se elimina el campo y el camino. Un cambio "like-for-like" no es un cambio según el procedimiento. | Decidido |
+| Clasificación | Type of Change (8 tipos, reutilizando el objeto MOC Category) × Grade (Minor/Moderate/Major, que es la lista Change Impact). Sustituye el scoring de Level 1–5. Lista de "Automatic Major". | Propuesto; falta el OK de Global HSE |
+| Aprobaciones | Minor: TM. Moderate: TM → Regional HSEC + Ops. Major: TM → Regional → Global HSEC + Ops. **Secuenciales.** Se reutilizan los 6 objetos de aprobación renombrados. | Intelex debe proponer la solución |
+| Location Roles | MOC Coordinator, Terminal Manager, Regional HSEC, Regional Ops, Global HSEC, Global Ops. Las variaciones locales se resuelven asignando roles, no cambiando el workflow. | Falta nominar personas |
+| Checklist | Universal en la ubicación raíz, Liquids y Dry en sus segmentos. Carga por Excel. Los checklists por site quedan para la fase 2. | Draft en revisión (Sam) |
+| Campos nuevos | Grade Guidance por tipo (hide/show), Automatic Major, Emergency Justification, SCE afectado y tag, Approval Level (calculado), Approval Notes, Actual Implementation Date, grid de Action Plans. | Propuesto |
+| Notificaciones | N06/N07 corregidas; nuevas N11 (Emergency), N12 (Temporary expiry), N13/N14 (vencimientos). Escalado definido en Notification Schedules. | SLA pendientes |
+
+### Riesgo principal: alcance frente al SOW
+
+El SOW describe el MoC como *"Standard Workflow – No modifications"*, pero también incluye *"Moderate configurations"*. Esta segunda categoría permite *"minor modifications to workflow stages"*, campos con hide/show y cálculos básicos.
+
+- **Debería caber en Moderate:** quitar, fusionar o reordenar etapas, Type × Grade, guías con hide/show y Approval Level calculado.
+- **Puede acabar en Change Order:** las aprobaciones secuenciales y las validaciones nuevas (AH13–AH15).
+
+Recomendación: presentarlo en el workshop del 27-oct como configuración Moderate y que sea Intelex quien argumente lo contrario. Si hay que recortar, la alternativa a las aprobaciones secuenciales es que el MOC Coordinator envíe el siguiente nivel manualmente, aunque eso depende de la disciplina de cada usuario.
+
+### Pendiente antes de firmar
+
+1. OK de Global HSE (Stylianos) a la clasificación Type × Grade y a la lista de Automatic Major.
+2. Que Intelex confirme: la solución de aprobaciones secuenciales, el vínculo con Action Plans, el workflow simplificado (¿está en el SOW?) y la plantilla de importación de screening questions.
+3. Que Impala defina los SLA por etapa, nomine las personas por rol y decida si se reduce el checklist según el grade.
+
+---
+
 ## 1. Qué es el workbook y cómo se trabaja
 
 El workbook **no es una plantilla en blanco**. Es la configuración estándar (OOTB) de la app MoC de Intelex, ya documentada hoja por hoja. Nuestro trabajo como Impala es:
