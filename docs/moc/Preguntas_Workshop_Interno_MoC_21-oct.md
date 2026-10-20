@@ -31,7 +31,9 @@
 
 9. ¿Confirmamos las 6 etapas del fichero de Sam y que la emergencia vaya de Initiation a Approval? **[SAM]**
 10. **Emergencia:** ¿se completa el dossier a posteriori? ¿En cuántos días? Shaun quiere "simple, solo documentar la aprobación". El BRD pide una regularización retrospectiva. **[20-oct] [BRD]**
-11. **Workflow simplificado** (cambios organizativos o de IT): ¿lo pedimos para esta fase o primero cerramos el completo, como dijo Shaun? **[20-oct] [19-oct] [BRD]**
+11. **Workflow simplificado** (cambios organizativos o de IT): ¿lo pedimos para esta fase o primero cerramos el completo, como dijo Shaun? ¿Reutilizamos **Replacement in Kind** (renombrado como "Simplified MOC?") como interruptor? Ya trae un camino que salta etapas, así que no haría falta un workflow nuevo. Mientras se decide, no se elimina: está **en espera** en el workbook. **[20-oct] [19-oct] [BRD]**
+
+> El Excel `Impala - MoC Workshop Interno 21-oct - Preguntas.xlsx` es la versión de trabajo de esta lista. Para cada pregunta incluye por qué se pregunta, la pregunta en inglés, las opciones y columnas para anotar la respuesta.
 12. **Plazos (SLA) por etapa:** ¿cuántos días en Evaluation, Design & Analysis y en Approval? El estándar no trae ninguno; la propuesta es 30 y 14 días. **[19-oct] [BA]**
 13. **Bloqueos entre etapas:** ¿se puede pasar a Approval con preguntas del checklist sin responder o con tareas abiertas? Intelex avisó de que el estándar no obliga a nada. **[19-oct]**
 
