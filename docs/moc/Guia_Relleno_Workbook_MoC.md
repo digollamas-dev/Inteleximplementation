@@ -45,6 +45,42 @@ El SOW describe el MoC como *"Standard Workflow – No modifications"*, pero tam
 
 Recomendación: presentarlo en el workshop del 27-oct como configuración Moderate y que sea Intelex quien argumente lo contrario. Si hay que recortar, la alternativa a las aprobaciones secuenciales es que el MOC Coordinator envíe el siguiente nivel manualmente, aunque eso depende de la disciplina de cada usuario.
 
+### Aporte del BRD BO-61 v2.0 (B.3 MoC)
+
+**Regla aplicada:** manda el diseño de Sam del 20-oct. Del BRD solo se incorpora lo que lo **complementa**. Lo que lo **contradice** queda registrado como desviación para que se ratifique.
+
+**Incorporado al workbook:**
+
+| Requisito BRD | Cómo queda en el workbook |
+|---|---|
+| FR-B3-001 (Must): alcance completo del cambio | Campos Reason for Change & Technical Basis (texto largo), Affected Equipment/Process/System y Proposed Implementation Plan |
+| FR-B3-004 / 026: roles | Campos Change Owner (por defecto, el requester) y Operational Owner. Los roles de aprobación se mapean a ROM, Head of HSEQ y COO |
+| FR-B3-003 / 014, RULE-B3-08: temporales | Review Date, Number of Extensions (máximo 3, AH16) y Extension Rationale. La conversión a permanente se hace con un MOC nuevo vinculado |
+| FR-B3-015, RULE-B3-14: emergencia | Regularisation Due Date. La emergencia no puede cerrarse sin el dossier retrospectivo (AH17) |
+| FR-B3-028 / 032: gate de PSSR | Las tareas de Implementation son las acciones pre-startup y bloquean Start Up; las post-startup se crean en Follow Up |
+| FR-B3-012: verificación post-MoC | 3 Yes/No en Follow Up: field check, comunicación e impactos downstream/acumulados |
+| FR-B3-016, RULE-B3-10: comunicación | Campo Affected Personnel / Groups, que da origen a las tareas de Change Communication y Training |
+| FR-B3-035: devolver ≠ rechazar | Comentario en el workflow; Intelex debe confirmar si las aprobaciones se conservan en un Roll Back |
+| FR-B3-019 / 033: KPIs | Decisión registrada para la fase de reporting (los campos ya se capturan) |
+
+**Ya cubierto por el diseño de Sam o por el estándar:**
+- Checklist por segmento y ubicación (FR-B3-024 / 038).
+- Aprobadores ad hoc (FR-B3-010).
+- Respuestas Yes/No/N/A (FR-B3-039).
+- Workflow simple frente a avanzado (FR-B3-023, pendiente de Intelex).
+- Vínculo con Action Plans (FR-B3-013).
+- Historial y comentarios (FR-B3-029 / 034).
+- Exportación (FR-B3-043).
+
+**Desviaciones respecto al BRD aprobado** (decisión 16 en Decisions & Tasks; las debe ratificar Shaun como MoC Process Owner):
+1. Se sustituye el scoring Level 0–5 (grade of change × grade of hazard, FR-B3-006 / RULE-B3-04) por la clasificación Type × Grade.
+2. Los like-for-like **no se registran** en el sistema, aunque el BRD lo exige como Must (FR-B3-002). La justificación queda en el procedimiento.
+3. Un cambio Minor lo aprueba solo el Terminal Manager, pero RULE-B3-06 exige **un mínimo de 2 aprobadores** para los niveles 0–3. Hay que decidir si se añade un segundo aprobador local (por ejemplo, el HSE del terminal) o si se ajusta la regla.
+
+Una vez ratificadas, hay que actualizar el Requirements Register (BO61-203) y el procedimiento CO-HS-GEN-PRO-002.
+
+**Fuera de alcance de esta fase:** los requisitos Could (FR-B3-017, 021, 025, 027, 037, 041, 045).
+
 ### Pendiente antes de firmar
 
 1. OK de Global HSE (Stylianos) a la clasificación Type × Grade y a la lista de Automatic Major.
