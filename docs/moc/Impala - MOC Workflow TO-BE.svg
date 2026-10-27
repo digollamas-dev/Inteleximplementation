@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2300" height="900" viewBox="0 0 2300 900" font-family="Segoe UI, Calibri, Arial, sans-serif">
+<defs><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1F1F1F"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ED7D31"/></marker></defs>
+<rect width="2300" height="900" fill="#FFFFFF"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#1F1F1F">MOC Workflow — Impala proposal (TO-BE)</text>
+<text x="40" y="84" font-size="17" fill="#7F7F7F">Based on MOC Proposal Rev2 (Sam Robinson) and internal pre-design sessions 20–21 Oct 2026. Replaces the out-of-the-box 7-stage workflow (Pre-Approval removed, Evaluation + Design &amp; Analysis merged, Approval before Implementation).</text>
+<circle cx="95" cy="367.0" r="34" fill="#FFFFFF" stroke="#1F1F1F" stroke-width="2"/>
+<text x="95" y="373.0" font-size="17" text-anchor="middle" fill="#1F1F1F">Create</text>
+<line x1="129" y1="367.0" x2="236" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<rect x="240" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="338.0" y="373.0" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Initiation</text>
+<text x="248" y="324" font-size="13" fill="#7F7F7F">1</text>
+<rect x="554" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="652.0" y="362.5" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Evaluation, Design</text>
+<text x="652.0" y="383.5" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">&amp; Analysis</text>
+<text x="562" y="324" font-size="13" fill="#7F7F7F">2</text>
+<rect x="868" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="966.0" y="373.0" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Approval</text>
+<text x="876" y="324" font-size="13" fill="#7F7F7F">3</text>
+<rect x="1182" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="1280.0" y="373.0" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Implementation</text>
+<text x="1190" y="324" font-size="13" fill="#7F7F7F">4</text>
+<rect x="1496" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="1594.0" y="373.0" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Start Up</text>
+<text x="1504" y="324" font-size="13" fill="#7F7F7F">5</text>
+<rect x="1810" y="330" width="196" height="74" rx="4" fill="#9DC3E6" stroke="#2E75B6" stroke-width="2"/>
+<text x="1908.0" y="373.0" font-size="18" font-weight="600" text-anchor="middle" fill="#1F1F1F">Follow Up</text>
+<text x="1818" y="324" font-size="13" fill="#7F7F7F">6</text>
+<line x1="436" y1="367.0" x2="550" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="495.0" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Submit</text>
+<text x="495.0" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N01)</text>
+<line x1="750" y1="367.0" x2="864" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="809.0" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Submit</text>
+<text x="809.0" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N01)</text>
+<line x1="1064" y1="367.0" x2="1178" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="1123.0" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Submit</text>
+<text x="1123.0" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N01)</text>
+<line x1="1378" y1="367.0" x2="1492" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="1437.0" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Submit</text>
+<text x="1437.0" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N01)</text>
+<line x1="1692" y1="367.0" x2="1806" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="1751.0" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Submit</text>
+<text x="1751.0" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N01)</text>
+<line x1="2006" y1="367.0" x2="2082" y2="367.0" stroke="#1F1F1F" stroke-width="2" marker-end="url(#ab)"/>
+<text x="2046" y="341.0" font-size="15" text-anchor="middle" fill="#1F6FD1">Close</text>
+<text x="2046" y="359.0" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N04)</text>
+<rect x="2086" y="345.0" width="120" height="44" rx="22" fill="#D9D9D9" stroke="#7F7F7F" stroke-width="2"/>
+<text x="2146" y="373.0" font-size="17" text-anchor="middle" fill="#1F1F1F">Completed</text>
+<path d="M612.8,330 L612.8,260 L377.2,260 L377.2,326" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="495.0" y="230" font-size="15" text-anchor="middle" fill="#C00000">Roll Back</text>
+<text x="495.0" y="248" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N02)</text>
+<path d="M926.8,330 L926.8,260 L691.2,260 L691.2,326" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="809.0" y="230" font-size="15" text-anchor="middle" fill="#C00000">Roll Back</text>
+<text x="809.0" y="248" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N02)</text>
+<path d="M1240.8,330 L1240.8,260 L1005.2,260 L1005.2,326" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="1123.0" y="230" font-size="15" text-anchor="middle" fill="#C00000">Roll Back</text>
+<text x="1123.0" y="248" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N02)</text>
+<path d="M1554.8,330 L1554.8,260 L1319.2,260 L1319.2,326" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="1437.0" y="230" font-size="15" text-anchor="middle" fill="#C00000">Roll Back</text>
+<text x="1437.0" y="248" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N02)</text>
+<path d="M1868.8,330 L1868.8,260 L1633.2,260 L1633.2,326" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="1751.0" y="230" font-size="15" text-anchor="middle" fill="#C00000">Roll Back</text>
+<text x="1751.0" y="248" font-size="14" text-anchor="middle" fill="#1F1F1F">Email (N02)</text>
+<path d="M887.6,330 L887.6,190 L269.4,190 L269.4,326" fill="none" stroke="#ED7D31" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#ao)"/>
+<text x="279.4" y="180" font-size="14" fill="#ED7D31">Roll Back if Emergency Change = Yes · Email (N02)</text>
+<path d="M338.0,404 L338.0,454 L936.6,454 L936.6,408" fill="none" stroke="#ED7D31" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#ao)"/>
+<text x="348.0" y="476" font-size="15" fill="#ED7D31" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Emergency Change = Yes → straight to Approval · Email (N01, N11)</text>
+<line x1="720.6" y1="524" x2="1908.0" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="720.6" y1="404" x2="720.6" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="1034.6" y1="404" x2="1034.6" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="1348.6" y1="404" x2="1348.6" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="1662.6" y1="404" x2="1662.6" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="1976.6" y1="404" x2="1976.6" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="1908.0" y1="524" x2="2146" y2="524" stroke="#1F1F1F" stroke-width="1.5"/>
+<line x1="2146" y1="524" x2="2146" y2="550" stroke="#1F1F1F" stroke-width="1.5" marker-end="url(#ab)"/>
+<rect x="2086" y="554" width="120" height="44" rx="22" fill="#F2F2F2" stroke="#7F7F7F" stroke-width="2"/>
+<text x="2146" y="582" font-size="17" text-anchor="middle" fill="#1F1F1F">Cancelled</text>
+<text x="1398" y="548" font-size="15" fill="#1F6FD1" paint-order="stroke" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round">Cancel (any stage after Initiation) → Cancelled · <tspan fill="#1F1F1F">Email (N03)</tspan></text>
+<rect x="234" y="594" width="208" height="144" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="244" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: Created By</text>
+<text x="244" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Mandatory: Location, Description,</text>
+<text x="244" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">Emergency / Simple / Temporary,</text>
+<text x="244" y="679" font-size="13.5" font-weight="400" fill="#1F1F1F">Change Type, Change Impact,</text>
+<text x="244" y="700" font-size="13.5" font-weight="400" fill="#1F1F1F">Priority, Change Justification,</text>
+<text x="244" y="721" font-size="13.5" font-weight="400" fill="#1F1F1F">Requested Change Date</text>
+<rect x="548" y="594" width="208" height="144" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="558" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: MOC Coordinator (Role)</text>
+<text x="558" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Checklist (Universal + Liquids/Dry)</text>
+<text x="558" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">— not for Simple Change</text>
+<text x="558" y="679" font-size="13.5" font-weight="400" fill="#1F1F1F">Tasks: Pre-Implementation /</text>
+<text x="558" y="700" font-size="13.5" font-weight="400" fill="#1F1F1F">Pre-Follow Up</text>
+<text x="558" y="721" font-size="13.5" font-weight="400" fill="#1F1F1F">D&amp;A questions + justifications</text>
+<rect x="862" y="594" width="208" height="165" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="872" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: MOC Coordinator (Role)</text>
+<text x="872" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Due: 7 days</text>
+<text x="872" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">Auto approvals by Change Impact,</text>
+<text x="872" y="679" font-size="13.5" font-weight="400" fill="#1F1F1F">SEQUENTIAL:</text>
+<text x="872" y="700" font-size="13.5" font-weight="400" fill="#1F1F1F">Minor: TM + 1 tech. specialist</text>
+<text x="872" y="721" font-size="13.5" font-weight="400" fill="#1F1F1F">Moderate: + Regional HSEC &amp; Ops</text>
+<text x="872" y="742" font-size="13.5" font-weight="400" fill="#1F1F1F">Major: + Global HSEC &amp; Ops</text>
+<rect x="1176" y="594" width="208" height="123" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="1186" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: MOC Coordinator (Role)</text>
+<text x="1186" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Entry: Pre-Implementation</text>
+<text x="1186" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">tasks closed</text>
+<text x="1186" y="679" font-size="13.5" font-weight="400" fill="#1F1F1F">PSSR*, training, comms,</text>
+<text x="1186" y="700" font-size="13.5" font-weight="400" fill="#1F1F1F">installation, critical PSSR items</text>
+<rect x="1490" y="594" width="208" height="81" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="1500" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: MOC Coordinator (Role)</text>
+<text x="1500" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Start-up completed</text>
+<text x="1500" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">Start-up notes (feedback)</text>
+<rect x="1804" y="594" width="208" height="123" rx="4" fill="#F7F9FC" stroke="#D0D7E2"/>
+<text x="1814" y="616" font-size="13.5" font-weight="600" fill="#1F1F1F">Owner: MOC Coordinator (Role)</text>
+<text x="1814" y="637" font-size="13.5" font-weight="400" fill="#1F1F1F">Entry: Pre-Follow Up tasks</text>
+<text x="1814" y="658" font-size="13.5" font-weight="400" fill="#1F1F1F">closed</text>
+<text x="1814" y="679" font-size="13.5" font-weight="400" fill="#1F1F1F">Temporary → permanent?</text>
+<text x="1814" y="700" font-size="13.5" font-weight="400" fill="#1F1F1F">Lessons Learnt</text>
+<line x1="40" y1="818" x2="2260" y2="818" stroke="#D0D7E2"/>
+<text x="40" y="842" font-size="14" fill="#1F1F1F"><tspan font-weight="600">Simple Change = Yes</tspan> (IT / organisational): same workflow, no Evaluation, D&amp;A checklist.   <tspan font-weight="600">Temporary Change = Yes</tspan>: Change Expiry mandatory; closure requires scheduling of permanent MOC.   All mandated items must be completed before moving to the next stage.</text>
+<text x="40" y="866" font-size="14" fill="#7F7F7F">* PSSR mandatory for Moderate/Major only — to be confirmed. TM re-approval at later stages and emergency regularisation — open points. Ad hoc approvals can be added at any stage. MOC Task / MOC Approval sub-workflows unchanged (OOTB).</text>
+</svg>
